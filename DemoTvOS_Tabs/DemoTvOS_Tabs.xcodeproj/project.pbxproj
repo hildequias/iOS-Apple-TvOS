@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B377E7C91C43A87200377904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377E7C81C43A87200377904 /* AppDelegate.swift */; };
+		B377E7CB1C43A87200377904 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377E7CA1C43A87200377904 /* FirstViewController.swift */; };
+		B377E7CD1C43A87200377904 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377E7CC1C43A87200377904 /* SecondViewController.swift */; };
+		B377E7D01C43A87200377904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B377E7CE1C43A87200377904 /* Main.storyboard */; };
+		B377E7D21C43A87200377904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B377E7D11C43A87200377904 /* Assets.xcassets */; };
+		B377E7DD1C43A87200377904 /* DemoTvOS_TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B377E7DC1C43A87200377904 /* DemoTvOS_TabsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B377E7D91C43A87200377904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B377E7BD1C43A87200377904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B377E7C41C43A87200377904;
+			remoteInfo = DemoTvOS_Tabs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B377E7C51C43A87200377904 /* DemoTvOS_Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTvOS_Tabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377E7C81C43A87200377904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B377E7CA1C43A87200377904 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B377E7CC1C43A87200377904 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B377E7CF1C43A87200377904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B377E7D11C43A87200377904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B377E7D31C43A87200377904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B377E7D81C43A87200377904 /* DemoTvOS_TabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTvOS_TabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B377E7DC1C43A87200377904 /* DemoTvOS_TabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTvOS_TabsTests.swift; sourceTree = "<group>"; };
+		B377E7DE1C43A87200377904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B377E7C21C43A87200377904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377E7D51C43A87200377904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B377E7BC1C43A87200377904 = {
+			isa = PBXGroup;
+			children = (
+				B377E7C71C43A87200377904 /* DemoTvOS_Tabs */,
+				B377E7DB1C43A87200377904 /* DemoTvOS_TabsTests */,
+				B377E7C61C43A87200377904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B377E7C61C43A87200377904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B377E7C51C43A87200377904 /* DemoTvOS_Tabs.app */,
+				B377E7D81C43A87200377904 /* DemoTvOS_TabsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B377E7C71C43A87200377904 /* DemoTvOS_Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B377E7C81C43A87200377904 /* AppDelegate.swift */,
+				B377E7CA1C43A87200377904 /* FirstViewController.swift */,
+				B377E7CC1C43A87200377904 /* SecondViewController.swift */,
+				B377E7CE1C43A87200377904 /* Main.storyboard */,
+				B377E7D11C43A87200377904 /* Assets.xcassets */,
+				B377E7D31C43A87200377904 /* Info.plist */,
+			);
+			path = DemoTvOS_Tabs;
+			sourceTree = "<group>";
+		};
+		B377E7DB1C43A87200377904 /* DemoTvOS_TabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B377E7DC1C43A87200377904 /* DemoTvOS_TabsTests.swift */,
+				B377E7DE1C43A87200377904 /* Info.plist */,
+			);
+			path = DemoTvOS_TabsTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B377E7C41C43A87200377904 /* DemoTvOS_Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377E7E11C43A87200377904 /* Build configuration list for PBXNativeTarget "DemoTvOS_Tabs" */;
+			buildPhases = (
+				B377E7C11C43A87200377904 /* Sources */,
+				B377E7C21C43A87200377904 /* Frameworks */,
+				B377E7C31C43A87200377904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoTvOS_Tabs;
+			productName = DemoTvOS_Tabs;
+			productReference = B377E7C51C43A87200377904 /* DemoTvOS_Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B377E7D71C43A87200377904 /* DemoTvOS_TabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B377E7E41C43A87200377904 /* Build configuration list for PBXNativeTarget "DemoTvOS_TabsTests" */;
+			buildPhases = (
+				B377E7D41C43A87200377904 /* Sources */,
+				B377E7D51C43A87200377904 /* Frameworks */,
+				B377E7D61C43A87200377904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B377E7DA1C43A87200377904 /* PBXTargetDependency */,
+			);
+			name = DemoTvOS_TabsTests;
+			productName = DemoTvOS_TabsTests;
+			productReference = B377E7D81C43A87200377904 /* DemoTvOS_TabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B377E7BD1C43A87200377904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Pixonsoft;
+				TargetAttributes = {
+					B377E7C41C43A87200377904 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					B377E7D71C43A87200377904 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = B377E7C41C43A87200377904;
+					};
+				};
+			};
+			buildConfigurationList = B377E7C01C43A87200377904 /* Build configuration list for PBXProject "DemoTvOS_Tabs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B377E7BC1C43A87200377904;
+			productRefGroup = B377E7C61C43A87200377904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B377E7C41C43A87200377904 /* DemoTvOS_Tabs */,
+				B377E7D71C43A87200377904 /* DemoTvOS_TabsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B377E7C31C43A87200377904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377E7D21C43A87200377904 /* Assets.xcassets in Resources */,
+				B377E7D01C43A87200377904 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377E7D61C43A87200377904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B377E7C11C43A87200377904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377E7CD1C43A87200377904 /* SecondViewController.swift in Sources */,
+				B377E7C91C43A87200377904 /* AppDelegate.swift in Sources */,
+				B377E7CB1C43A87200377904 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B377E7D41C43A87200377904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B377E7DD1C43A87200377904 /* DemoTvOS_TabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B377E7DA1C43A87200377904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B377E7C41C43A87200377904 /* DemoTvOS_Tabs */;
+			targetProxy = B377E7D91C43A87200377904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B377E7CE1C43A87200377904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B377E7CF1C43A87200377904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B377E7DF1C43A87200377904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B377E7E01C43A87200377904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B377E7E21C43A87200377904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DemoTvOS_Tabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixonsoft.DemoTvOS-Tabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B377E7E31C43A87200377904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = DemoTvOS_Tabs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixonsoft.DemoTvOS-Tabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B377E7E51C43A87200377904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoTvOS_TabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixonsoft.DemoTvOS-TabsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoTvOS_Tabs.app/DemoTvOS_Tabs";
+			};
+			name = Debug;
+		};
+		B377E7E61C43A87200377904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoTvOS_TabsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pixonsoft.DemoTvOS-TabsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoTvOS_Tabs.app/DemoTvOS_Tabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B377E7C01C43A87200377904 /* Build configuration list for PBXProject "DemoTvOS_Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377E7DF1C43A87200377904 /* Debug */,
+				B377E7E01C43A87200377904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B377E7E11C43A87200377904 /* Build configuration list for PBXNativeTarget "DemoTvOS_Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377E7E21C43A87200377904 /* Debug */,
+				B377E7E31C43A87200377904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B377E7E41C43A87200377904 /* Build configuration list for PBXNativeTarget "DemoTvOS_TabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B377E7E51C43A87200377904 /* Debug */,
+				B377E7E61C43A87200377904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B377E7BD1C43A87200377904 /* Project object */;
+}
